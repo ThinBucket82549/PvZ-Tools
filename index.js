@@ -10,7 +10,7 @@ const InfoEmbed = new Discord.MessageEmbed()
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setDescription('A Plants vs. Zombies bot created by zSupremoz. With it you can randomly select characters from any Platns vs. Zombies Shooter game and calculate the XP needed for some Prize Bulbs (and vice versa).')
     .addFields(
-        { name: 'Source', value: 'Soon' }
+        { name: 'Source', value: 'https://github.com/zSupremoz/PvZ-Tools' }
     )
     .setFooter(`Version - ${version}`);
 
