@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token, version } = require('./config/config.json');
-const Randomizer = require('./functions/randomizer.js');
-const Calc = require('./functions/conversions.js');
+const { prefix, token } = require('./config/config.json');
 const client = new Discord.Client();
 
 const fs = require('fs');
@@ -14,9 +12,24 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
+let statuses = ['pvz.help', 'discord.gg/GDfFz99'];
+let status = 0;
+
 client.once('ready', () => {
     console.log('PvZ Tools is Online!');
     client.user.setActivity('pvz.help', { type: "LISTENING"});
+    setInterval(function() {
+        if (status === 0)
+        {
+            status++;
+            client.user.setActivity(statuses[status], {type: "PLAYING"});
+        }
+        else if (status === 1)
+        {
+            status--;
+            client.user.setActivity(statuses[status], {type: "LISTENING"});
+        }
+    }, 25000)
 });
 
 client.login(token);
@@ -69,7 +82,13 @@ client.on('message', message => {
         case 'gw2events':
             client.commands.get('gw2events').execute(message, args);
             break;
+        case 'gw2event':
+            client.commands.get('gw2events').execute(message, args);
+            break;
         case 'bfnevents':
+            client.commands.get('bfnevents').execute(message, args);
+            break;
+        case 'bfnevent':
             client.commands.get('bfnevents').execute(message, args);
             break;
         case 'bfnupgs':
@@ -80,7 +99,16 @@ client.on('message', message => {
             break;
         case 'botchangelogs':
             client.commands.get('botchanges').execute(message, args);
-            break;    
+            break;
+        case 'nextkey':
+            client.commands.get('nextkey').execute(message, args);
+            break;
+        case 'ruxgw2':
+            client.commands.get('ruxleaves').execute(message, args);
+            break;
+        case 'prizemap':
+            client.commands.get('prizemap').execute(message, args);
+            break;
         default:
             message.channel.send('Unknown command. Please refer to pvz.help.');
             break;
