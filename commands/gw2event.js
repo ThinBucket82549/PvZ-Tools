@@ -4,7 +4,7 @@ const { version } = require('../config/config.json');
 const EventEmbed = new Discord.MessageEmbed()
     .setColor('#4da43b')
     .setTitle('None')
-    .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
+    .setAuthor('Garden Warfare 2 Mystery Portal', 'https://i.imgur.com/REUXZUa.png')
     .setDescription('Please check back later.')
     .addFields(
         { name: 'Permitted Characters', value: 'N/A' },

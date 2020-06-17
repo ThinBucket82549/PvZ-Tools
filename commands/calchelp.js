@@ -10,7 +10,7 @@ const CalcHelpEmbed = new Discord.MessageEmbed()
         { name: 'Note', value: 'Do not include the brackets/[] when giving the bot input.'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools#calculator-commands' }
     )
-    .setFooter(`Version - ${version}`);
+    .setFooter(`Version - ${version}`)
 
 module.exports = {
     name: 'calchelp',

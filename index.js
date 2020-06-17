@@ -15,7 +15,7 @@ for (const file of commandFiles)
 }
 
 client.once('ready', () => {
-    console.log('Ready!');
+    console.log('PvZ Tools is Online!');
     client.user.setActivity('pvz.help', { type: "LISTENING"});
 });
 
@@ -43,30 +43,28 @@ client.on('message', message => {
             client.commands.get('botinfo').execute(message, args);
             break;
         case 'gw1plant':
-            message.channel.send('<:plant:722081541265686530> ' + Randomizer.randomgw1plant())
+            client.commands.get('gw1plant').execute(message, args);
             break;
         case 'gw1zombie':
-            message.channel.send('<:zombie:722081554851168266> ' + Randomizer.randomgw1zombie());
+            client.commands.get('gw1zombie').execute(message, args);
             break;
         case 'gw2plant':
-            message.channel.send('<:plant:722081541265686530> ' + Randomizer.randomgw2plant());
+            client.commands.get('gw2plant').execute(message, args);
             break;
         case 'gw2zombie':
-            message.channel.send('<:zombie:722081554851168266> ' + Randomizer.randomgw2zombie());
+            client.commands.get('gw2zombie').execute(message, args);
             break;
         case 'bfnplant':
-            message.channel.send('<:plant:722081541265686530> ' + Randomizer.randomBfnPlant());
+            client.commands.get('bfnplant').execute(message, args);
             break;
         case 'bfnzombie':
-            message.channel.send('<:zombie:722081554851168266> ' + Randomizer.randomBfnZombie());
+            client.commands.get('bfnzombie').execute(message, args);
             break;
         case 'tobulb':
-            var xp = args[0];
-            message.channel.send('Prize Bulbs - ' + Calc.ConvertToPrizeBulb(xp) + ' <:prizebulb:721918291400196126>');
+            client.commands.get('tobulb').execute(message, args);
             break;
         case 'toxp':
-            var bulbs = args[0];
-            message.channel.send('XP - ' + Calc.ConvertToXp(bulbs) + ' <:xp:722080853869592648>');
+            client.commands.get('toxp').execute(message, args);
             break;
         case 'gw2events':
             client.commands.get('gw2events').execute(message, args);
@@ -74,8 +72,17 @@ client.on('message', message => {
         case 'bfnevents':
             client.commands.get('bfnevents').execute(message, args);
             break;
+        case 'bfnupgs':
+            client.commands.get('bfnupgrades').execute(message, args);
+            break;
+        case 'botchangelog':
+            client.commands.get('botchanges').execute(message, args);
+            break;
+        case 'botchangelogs':
+            client.commands.get('botchanges').execute(message, args);
+            break;    
         default:
-            message.channel.send('Unknown command. Please refer to !pvz help.');
+            message.channel.send('Unknown command. Please refer to pvz.help.');
             break;
     }
 })

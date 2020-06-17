@@ -440,7 +440,7 @@ function randomgw2zombie () {
 
 // Plants vs. Zombies: Battle for Neighborville Definitions
 var bfnplants = ["Peashooter", "Chomper", "Kernel Corn", "Night Cap", "Snapdragon", "Cactus", "Citron", "Acorn", "Sunflower", "Rose"];
-var bfnzombies = ["Foot Soldier", "Imp", "Super Brainz", "80's Action Hero", "Electrict Slide", "All-Star", "Captain Deadbeard", "Space Cadet", "Scientist", "Engineer", "Wizard"];
+var bfnzombies = ["Foot Soldier", "Imp", "Super Brainz", "80s Action Hero", "Electrict Slide", "All-Star", "Captain Deadbeard", "Space Cadet", "Scientist", "Engineer", "Wizard"];
 var HasLegendaryUpg = ["Yes", "No"];
 
 function randomBfnPlant () {
@@ -514,7 +514,7 @@ function randomBfnZombie () {
             return 'Super Brainz';
 
         case 3:
-            return '80\'s Action Hero';
+            return '80s Action Hero';
 
         case 4:
             return 'Electric Slide';

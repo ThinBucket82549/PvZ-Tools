@@ -3,13 +3,14 @@ const { version } = require('../config/config.json');
 
 const EventEmbed = new Discord.MessageEmbed()
     .setColor('#5d38a9')
-    .setTitle('Cool Explosions Only')
-    .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
-    .setDescription('Cool dudes usually don\'t look at explosions, but with so many going off it\'s hard not to. Bombs, Beans, and Fireballs all go BOOM this week!')
+    .setTitle('Boss Turf Takeover')
+    .setAuthor('BFN Weekly Event', 'https://i.imgur.com/REUXZUa.png')
+    .setDescription('8v8 Turf Takeover where teams not only battle over turf, but also compete for the Boss Chest to spawn an AI boss for their cause!')
     .addFields(
-        { name: 'Permitted Characters', value: 'Peashooter, Kernel Corn, Snapdragon, Foot Soldier, Super Brainz, 80\'s Action Hero' },
-        { name: 'Game Mode', value: 'Gnome Bomb'},
-        { name: 'End Time', value: 'Teusday, June 16 (2:15 PM EST)' }
+        { name: 'Permitted Characters', value: 'All' },
+        { name: 'Game Mode', value: 'Turf Takeover'},
+        { name: 'End Time', value: 'Teusday, June 23 (2:15 PM EST)' },
+        { name: 'Challenges', value: '1. Open a Boss Chest. <:rainbowstar:722757038442020896>10\n2. Vanquish a Boss. <:rainbowstar:722757038442020896>20\n3. Win 5 Matches. <:rainbowstar:722757038442020896>30'}
     )
     .setFooter(`Version - ${version}`);
 
