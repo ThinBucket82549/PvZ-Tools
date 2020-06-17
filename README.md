@@ -41,3 +41,6 @@ pvz.bfnupgs [Character Name] (ex. Super Brainz, All-Star, 80s Action Hero, Kerne
 
 ### View Bot Changelog
 pvz.botchangelog
+
+### Join the Support Server
+https://discord.gg/GDfFz99
