@@ -1,17 +1,19 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
+const { ruxgw2 } = require('../config/timers.json');
 
 const RuxEmbed = new Discord.MessageEmbed()
     .setColor('#fa4cb2')
     .setTitle('Next Rux Rotation (GW2)')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 module.exports = {
     name: 'ruxleaves',
     description: 'Gets the amount of time left until Rux leaves.',
     execute(message, args) {
-        var ruxLeavesIn = new Date("Jun 22, 2020 7:00:00").getTime();
+        var ruxLeavesIn = new Date(`${ruxgw2}`).getTime();
 
         var now = new Date().getTime();
 

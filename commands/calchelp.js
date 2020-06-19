@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
 
 const CalcHelpEmbed = new Discord.MessageEmbed()
     .setColor('#4da43b')
@@ -11,6 +11,7 @@ const CalcHelpEmbed = new Discord.MessageEmbed()
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools#calculator-commands' }
     )
     .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 module.exports = {
     name: 'calchelp',

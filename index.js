@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token } = require('./config/config.json');
+const { prefix, token } = require('./config.json');
 const client = new Discord.Client();
 
 const fs = require('fs');
@@ -41,6 +41,7 @@ client.on('message', message => {
     const args = message.content.slice(prefix.length).split(' ');
     const command = args.shift().toLowerCase();
 
+    
     switch (command)
     {
         case 'help':
@@ -79,16 +80,10 @@ client.on('message', message => {
         case 'toxp':
             client.commands.get('toxp').execute(message, args);
             break;
-        case 'gw2events':
+        case 'mysteryportal':
             client.commands.get('gw2events').execute(message, args);
             break;
-        case 'gw2event':
-            client.commands.get('gw2events').execute(message, args);
-            break;
-        case 'bfnevents':
-            client.commands.get('bfnevents').execute(message, args);
-            break;
-        case 'bfnevent':
+        case 'weeklyevent':
             client.commands.get('bfnevents').execute(message, args);
             break;
         case 'bfnupgs':
@@ -103,14 +98,17 @@ client.on('message', message => {
         case 'nextkey':
             client.commands.get('nextkey').execute(message, args);
             break;
-        case 'ruxgw2':
+        case 'rux':
             client.commands.get('ruxleaves').execute(message, args);
             break;
         case 'prizemap':
             client.commands.get('prizemap').execute(message, args);
             break;
+        case 'eventdata':
+            client.commands.get('eventlist').execute(message, args);
+            break;
         default:
-            message.channel.send('Unknown command. Please refer to pvz.help.');
+            client.commands.get('unk').execute(message, args);
             break;
     }
 })

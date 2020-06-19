@@ -1,12 +1,13 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
 const Calc = require('../functions/conversions.js');
 
 const ToBulbEmbed = new Discord.MessageEmbed()
     .setColor('#5d38a9')
-    .setTitle('XP to Prize Bulb Conversion')
+    .setTitle('XP to Prize Bulb Conversion | <:xp:722080853869592648><:arrow:722971202544730113><:prizebulb:721918291400196126>')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 module.exports = {
     name: 'tobulb',

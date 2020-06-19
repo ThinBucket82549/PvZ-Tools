@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
 const Randomizer = require('../functions/randomizer.js');
 const { randomgw2zombie } = require('../functions/randomizer.js');
 
@@ -7,6 +7,7 @@ const RandomizerEmbed = new Discord.MessageEmbed()
     .setTitle('Random GW2 Zombie Character')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 let zom = '<:zombie:722081554851168266>';
 module.exports = {

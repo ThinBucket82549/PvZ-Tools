@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
 
 const RandomHelpEmbed = new Discord.MessageEmbed()
     .setColor('#5d38a9')
@@ -9,7 +9,8 @@ const RandomHelpEmbed = new Discord.MessageEmbed()
     .addFields(
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools#randomizer-commands' }
     )
-    .setFooter(`Version - ${version}`);
+    .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 module.exports = {
     name: 'randomizerhelp',

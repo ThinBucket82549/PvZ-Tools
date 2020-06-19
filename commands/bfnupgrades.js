@@ -1,13 +1,10 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
 
 const UpgradesEmbed = new Discord.MessageEmbed()
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
-    .setFooter(`Version - ${version}`);
-
-/*let pages = [];
-let page = 1;*/
-
+    .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 module.exports = {
     name: 'bfnupgrades',
@@ -15,11 +12,6 @@ module.exports = {
     execute(message, args){
         if (args[0] === 'Peashooter' || args[0] === 'peashooter')
         {
-            /*
-            let pages = ['Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\nPro Spitter\t<:upg:722549190097371237>1\nReload Gatling\t<:upg:722549190097371237>2\nLast Ditch\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\n\nType pvz.next to go to the next page.',
-                        'Combat Adrenaline\t<:upg:722549190097371237>3\nExplosive Gatling\t<:upg:722549190097371237>3\nHoming Pea\t<:upg:722549190097371237>3\nBean Party\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nEscape Roots\t<:upg:722549190097371237>3\nFeed the Beast\t<:upg:722549190097371237>4\nParty Time\t<:upg:722549190097371237>5\n\nType pvz.previous to go to the previous page.'];
-            let page = 1;
-            */
             UpgradesEmbed.setColor('#4da43b');
             UpgradesEmbed.setTitle('Peashooter Upgrades');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\n'

@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const { version } = require('../config/config.json');
+const { version } = require('../config.json');
+const { prizemap } = require('../config/timers.json');
 
 const PrizeMapEmbed = new Discord.MessageEmbed()
     .setColor('#805304')
@@ -11,13 +12,14 @@ const PrizeMapEmbed = new Discord.MessageEmbed()
         { name: 'Main Prize', value: 'Future Crop'},
         { name: 'Grand Prize', value: 'Highly Decorated Crop'}
     )
-    .setFooter(`Version - ${version}`);
+    .setFooter(`Version - ${version}`)
+    .setTimestamp();
 
 module.exports = {
     name: 'prizemap',
     description: 'Check Prize Map information.',
     execute(message, args){
-        var mapEndsIn = new Date("Jul 1, 2020 14:15:00").getTime();
+        var mapEndsIn = new Date(`${prizemap}`).getTime();
         var now = new Date().getTime();
         var timeLeft = mapEndsIn - now;
 
