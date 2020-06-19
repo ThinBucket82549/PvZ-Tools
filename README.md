@@ -32,9 +32,11 @@ pvz.tobulb [XP Count] - Converts the amount of specified XP to Prize Bulbs.
 pvz.toxp [Prize Bulb Count] - Converts the amount of specified Prize Bulbs to XP.
 
 ### Event Commands
-pvz.gw2events - Shows the current Garden Warfare 2 Mystery Portal event and Battle for Neighborville Weekly Event.
+pvz.mysteryportal - Shows the current Garden Warfare 2 Mystery Portal event and Battle for Neighborville Weekly Event.
 
-pvz.bfnevents - Shows BFN Weekly Event details.
+pvz.weeklyevent - Shows BFN Weekly Event details.
+
+pvz.eventdata [Event Name] - Shows information on a certain BFN Weekly Event.
 
 ### View BFN Upgrades
 pvz.bfnupgs [Character Name] (ex. Super Brainz, All-Star, 80s Action Hero, Kernel Corn, Acorn)
