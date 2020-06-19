@@ -12,7 +12,7 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'discord.gg/GDfFz99'];
+let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.4.0!'];
 let status = 0;
 
 client.once('ready', () => {
