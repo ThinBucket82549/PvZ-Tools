@@ -38,6 +38,8 @@ pvz.weeklyevent - Shows BFN Weekly Event details.
 
 pvz.eventdata [Event Name] - Shows information on a certain BFN Weekly Event.
 
+pvz.challenges - Shows BFN Character Challenges during the current Prize Map.
+
 ### View BFN Upgrades
 pvz.bfnupgs [Character Name] (ex. Super Brainz, All-Star, 80s Action Hero, Kernel Corn, Acorn)
 
