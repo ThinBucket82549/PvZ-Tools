@@ -19,13 +19,22 @@ module.exports = {
 
         var timeLeft = ruxLeavesIn - now;
 
-        var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        var weeks = Math.floor(timeLeft / (1000 * 60 * 60 * 24 * 7));
+        var days = Math.floor(timeLeft % (1000 * 60 * 60 * 24 * 7) / (1000 * 60 * 60 * 24));
         var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        RuxEmbed.setDescription('Rux leaves in - ' + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
-
+        if (weeks > 0)
+            RuxEmbed.setDescription('Rux leaves in - ' + weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+        else if (weeks === 0)
+            RuxEmbed.setDescription('Rux leaves in - ' + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+        else if (days === 0)
+            RuxEmbed.setDescription('Rux leaves in - ' + hours + "h " + minutes + "m " + seconds + "s ");
+        else if (hours === 0)
+            RuxEmbed.setDescription('Rux leaves in - ' + minutes + "m " + seconds + "s ");
+        else if (minutes === 0)
+            RuxEmbed.setDescription('Rux leaves in - ' + seconds + "s ")
         if (timeLeft < 0) {
             RuxEmbed.setDescription("Rux has left.");
         }

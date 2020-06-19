@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
+const { prefix, token, version } = require('./config.json');
 const client = new Discord.Client();
 
 const fs = require('fs');
@@ -12,7 +12,7 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.4.0!'];
+let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.4.1!'];
 let status = 0;
 
 client.once('ready', () => {
@@ -106,6 +106,9 @@ client.on('message', message => {
             break;
         case 'eventdata':
             client.commands.get('eventlist').execute(message, args);
+            break;
+        case 'challenges':
+            client.commands.get('charchallenges').execute(message, args);
             break;
         default:
             client.commands.get('unk').execute(message, args);
