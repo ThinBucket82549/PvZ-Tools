@@ -6,18 +6,68 @@ const HelpEmbed = new Discord.MessageEmbed()
     .setTitle('Help Commands')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
-        { name: 'Help Commands', value: 'pvz.randomizer - Randomizer Help\npvz.calc - Calculator Help\npvz.info - Get Bot Information\npvz.botchangelog - Get the Latest Bot Update Info'},
-        { name: 'Game Commands', value: 'pvz.mysteryportal - Check the current GW2 Mystery Portal Event\npvz.weeklyevent - Check the current BFN Weekly Event\npvz.bfnupgs [Character Name] - Check a BFN Character\'s Upgrades\n'
-        + 'pvz.nextkey - Check when the next Challenge Key is available\npvz.prizemap - Check BFN Prize Map info\npvz.ruxgw2 - Check when Rux leaves in GW2\npvz.eventdata [Event Name] - Check Info on BFN Weekly Events'},
+        { name: 'Help Pages', value: 'pvz.help\npvz.help gw1\npvz.help gw2\npvz.help bfn'},
+        { name: 'Other Commands', value: 'pvz.info - Shows information about the bot.\npvz.botchangelog(s) - Shows bot update information.\npvz.todo - Shows the current To-Do list for PvZ Tools.'},
+        { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
+    )
+    .setFooter(`Version - ${version}`)
+    .setTimestamp();
+// #5d38a9
+const Gw1Embed = new Discord.MessageEmbed()
+    .setColor('#4da43b')
+    .setTitle('Garden Warfare 1 Commands')
+    .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
+    .addFields(
+        { name: 'Commands', value: 'pvz.gw1plant - Random GW1 Plant\npvz.gw1zombie - Random GW1 Zombie'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)
     .setTimestamp();
 
+const Gw2Embed = new Discord.MessageEmbed()
+    .setColor('#5d38a9')
+    .setTitle('Garden Warfare 2 Commands')
+    .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
+    .addFields(
+        { name: 'Commands', value: 'pvz.gw2plant - Random GW2 Plant.\npvz.gw2zombie - Random GW2 Zombie.\npvz.mysteryportal - Check the current Mystery Portal event.\npvz.rux - Check when Rux leaves.'},
+        { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
+    )
+    .setFooter(`Version - ${version}`)
+    .setTimestamp();
+
+const BfNEmbed = new Discord.MessageEmbed()
+    .setColor('#00175a')
+    .setTitle('Battle for Neighborville Commands')
+    .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
+    .addFields(
+        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.'},
+        { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
+    )
+    .setFooter(`Version - ${version}`)
+    .setTimestamp();
+
+
 module.exports = {
     name: 'help',
     description: 'Shows help commands.',
     execute(message, args){
-        message.channel.send(HelpEmbed);
+        switch (args[0])
+        {
+            case 'gw1':
+                message.channel.send(Gw1Embed);
+                break;
+            case 'gw2':
+                message.channel.send(Gw2Embed);
+                break;
+            case 'bfn':
+                message.channel.send(BfNEmbed);
+                break;
+            case '':
+                message.channel.send(HelpEmbed);
+                break;
+            default:
+                message.channel.send(HelpEmbed);
+                break;
+        }
     }
 }

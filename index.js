@@ -12,24 +12,15 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.4.1!'];
-let status = 0;
+let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.4.2!', 'created by zSupremoz!'];
 
 client.once('ready', () => {
-    console.log('PvZ Tools is Online!');
+    console.log('PvZ Tools v1.4.2 is Online!');
     client.user.setActivity('pvz.help', { type: "LISTENING"});
     setInterval(function() {
-        if (status === 0)
-        {
-            status++;
-            client.user.setActivity(statuses[status], {type: "PLAYING"});
-        }
-        else if (status === 1)
-        {
-            status--;
-            client.user.setActivity(statuses[status], {type: "LISTENING"});
-        }
-    }, 25000)
+        let status = statuses[Math.floor(Math.random() * statuses.length)];
+        client.user.setActivity(status, {type: "LISTENING"});
+    }, 10000)
 });
 
 client.login(token);
@@ -109,6 +100,9 @@ client.on('message', message => {
             break;
         case 'challenges':
             client.commands.get('charchallenges').execute(message, args);
+            break;
+        case 'todo':
+            client.commands.get('todo').execute(message, args);
             break;
         default:
             client.commands.get('unk').execute(message, args);
