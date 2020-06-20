@@ -12,10 +12,10 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.4.2!', 'created by zSupremoz!'];
+let statuses = ['pvz.help', 'discord.gg/GDfFz99', 'v1.5.0!', 'created by zSupremoz!'];
 
 client.once('ready', () => {
-    console.log('PvZ Tools v1.4.2 is Online!');
+    console.log('PvZ Tools v1.5.0 is Online!');
     client.user.setActivity('pvz.help', { type: "LISTENING"});
     setInterval(function() {
         let status = statuses[Math.floor(Math.random() * statuses.length)];
