@@ -1,6 +1,6 @@
 {
   "name": "pvz-tools",
-  "version": "1.4.0 Public Build",
+  "version": "1.0.0",
   "description": "PvZ Tools Discord Bot",
   "main": "index.js",
   "scripts": {
