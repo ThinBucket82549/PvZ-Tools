@@ -7,7 +7,7 @@ const HelpEmbed = new Discord.MessageEmbed()
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
         { name: 'Help Pages', value: 'pvz.help\npvz.help gw1\npvz.help gw2\npvz.help bfn'},
-        { name: 'Other Commands', value: 'pvz.info - Shows information about the bot.\npvz.botchangelog(s) - Shows bot update information.\npvz.todo - Shows the current To-Do list for PvZ Tools.'},
+        { name: 'Other Commands', value: 'pvz.info - Shows information about the bot.\npvz.botchangelog(s) - Shows bot update information.\npvz.todo - Shows the current To-Do list for PvZ Tools.\npvz.support - A link to the support server will be sent to your DMs.'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)
@@ -40,7 +40,7 @@ const BfNEmbed = new Discord.MessageEmbed()
     .setTitle('Battle for Neighborville Commands')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
-        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.'},
+        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.\npvz.arena - View the current Battle Arena rotation.'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)

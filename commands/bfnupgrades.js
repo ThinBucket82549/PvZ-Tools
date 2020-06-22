@@ -686,66 +686,87 @@ module.exports = {
             {
                 case 'Peashooter':
                     UpgradesEmbed.setColor('#4da43b');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673227762171955/Perk_RoleIcon_Hero_Peashooter.png');
                     break;
                 case 'Chomper':
                     UpgradesEmbed.setColor('#5d3b76');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673182656888882/Perk_RoleIcon_Hero_Chomper.png');
                     break;
                 case 'Kernel Corn':
                     UpgradesEmbed.setColor('#fdb559');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673179020427425/Perk_RoleIcon_Hero_AssaultCorn.png');
                     break;
                 case 'Night Cap':
                     UpgradesEmbed.setColor('#c04359');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673224285225000/Perk_RoleIcon_Hero_Mushroom.png');
                     break;
                 case 'Snapdragon':
                     UpgradesEmbed.setColor('#ee6f21');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673242396229672/Perk_RoleIcon_Hero_SnapDragon.png');
                     break;
                 case 'Cactus':
                     UpgradesEmbed.setColor('#929d41');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673181511712878/Perk_RoleIcon_Hero_Cactus.png');
                     break;
                 case 'Citron':
                     UpgradesEmbed.setColor('#ff9455');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673184061980712/Perk_RoleIcon_Hero_Citron.png');
                     break;
                 case 'Acorn':
                     UpgradesEmbed.setColor('#5c351b');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673174394110052/Perk_RoleIcon_Hero_Acorn.png');
                     break;
                 case 'Sunflower':
                     UpgradesEmbed.setColor('#faa74a');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673249845313636/Perk_RoleIcon_Hero_Sunflower.png');
                     break;
                 case 'Rose':
                     UpgradesEmbed.setColor('#be2c1f');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673235416907836/Perk_RoleIcon_Hero_Rose.png');
                     break;
                 case 'Foot Soldier':
                     UpgradesEmbed.setColor('#ad9940');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673246439669760/Perk_RoleIcon_Hero_Soldier.png');
                     break;
                 case 'Imp':
                     UpgradesEmbed.setColor('#e9683b');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673285589172254/Perk_RoleIcon_Hero_Imp.png');
                     break;
                 case 'Super Brainz':
                     UpgradesEmbed.setColor('#70328c');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673251909042196/Perk_RoleIcon_Hero_SuperBrainz.png');
                     break;
                 case '80s Action Hero':
                     UpgradesEmbed.setColor('#172b4e');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673176126357585/Perk_RoleIcon_Hero_ActionHero.png');
                     break;
                 case 'Electric Slide':
                     UpgradesEmbed.setColor('#dc3b82');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673185483849758/Perk_RoleIcon_Hero_Electric.png');
                     break;
                 case 'Captain Deadbeard':
                     UpgradesEmbed.setColor('#4e566a');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673231499296968/Perk_RoleIcon_Hero_Pirate.png');
                     break;
                 case 'All-Star':
                     UpgradesEmbed.setColor('#d03123');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673178021920858/Perk_RoleIcon_Hero_AllStar.png');
                     break;
                 case 'Space Cadet':
                     UpgradesEmbed.setColor('#a3867c');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673180379381770/Perk_RoleIcon_Hero_Astronaut.png');
                     break;
                 case 'Scientist':
                     UpgradesEmbed.setColor('#9e1abf');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673239149969478/Perk_RoleIcon_Hero_Scientist.png');
                     break;
                 case 'Engineer':
                     UpgradesEmbed.setColor('#fdaa4a');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673186637152346/Perk_RoleIcon_Hero_Engineer.png');
                     break;
                 case 'Wizard':
                     UpgradesEmbed.setColor('#3160b2');
+                    UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673255809744936/Perk_RoleIcon_Hero_Wizard.png');
                     break;
                 default:
                     UpgradesEmbed.setColor('#e01d82');
