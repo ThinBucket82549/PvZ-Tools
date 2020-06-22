@@ -104,6 +104,9 @@ client.on('message', message => {
         case 'todo':
             client.commands.get('todo').execute(message, args);
             break;
+        case 'support':
+            client.commands.get('support').execute(message, args);
+            break;
         default:
             client.commands.get('unk').execute(message, args);
             break;

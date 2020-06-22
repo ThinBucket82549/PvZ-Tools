@@ -9,7 +9,7 @@ const EventEmbed = new Discord.MessageEmbed()
     .addFields(
         { name: 'Game Mode', value: `${gamemode}`, inline: true},
         { name: 'Permitted Characters', value: `${allowedchars}`, inline: true},
-        { name: 'Challenges', value: `1. ${challenge1} <:rainbowstar:722757038442020896>10\n2. ${challenge2} <:rainbowstar:722757038442020896>20\n3. ${challenge3} <:rainbowstar:722757038442020896>30`, inline: true}
+        { name: 'Challenges', value: `1. ${challenge1} <:rainbowstar:724372673056210945> 10\n2. ${challenge2} <:rainbowstar:724372673056210945> 20\n3. ${challenge3} <:rainbowstar:724372673056210945> 30`, inline: true}
     )
     .setFooter(`Version - ${version}`)
     .setTimestamp();
