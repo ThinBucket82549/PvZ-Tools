@@ -550,11 +550,84 @@ function randomBfnZombie () {
     }
 }
 
+var gw1gamemodes = ["Welcome Mat", "Team Vanquish", "Gardens & Graveyards", "Gnome Bomb", "Mixed Mode", 
+                    "Vanquish Confirmed", "Suburbination", "Taco Bandits"];
+
+function gw1gamemode() {
+    var randomGameMode = Math.floor(Math.random()*gw1gamemodes.length);
+    switch (randomGameMode)
+    {
+        case 0:
+            return 'Welcome Mat';
+        case 1:
+            return 'Team Vanquish';
+        case 2:
+            return 'Gardens & Graveyards';
+        case 3:
+            return 'Gnome Bomb';
+        case 4:
+            return 'Mixed Mode';
+        case 5:
+            return 'Vanquish Confirmed';
+        case 6:
+            return 'Suburbination';
+        case 7:
+            return 'Taco Bandits';
+    }
+}
+
+var gw2gamemodes = ["Welcome Mat", "Mixed Mode", "Turf Takeover", "Team Vanquish", "Gnome Bomb", "Suburbination", "Vanquish Confirmed"];
+
+function gw2gamemode() {
+    var randomGameMode = Math.floor(Math.random()*gw1gamemodes.length);
+    switch (randomGameMode)
+    {
+        case 0:
+            return 'Welcome Mat';
+        case 1:
+            return 'Mixed Mode';
+        case 2:
+            return 'Turf Takeover';
+        case 3:
+            return 'Team Vanquish';
+        case 4:
+            return 'Gnome Bomb';
+        case 5:
+            return 'Suburbination';
+        case 6:
+            return 'Vanquish Confirmed';
+    }
+}
+
+var bfngamemodes = ["Weekly Event", "Turf Takeover", "Team Vanquish", "Battle Arena", "Garden & Graveyard Ops", "Mixed Modes"];
+
+function bfngamemode() {
+    var randomGameMode = Math.floor(Math.random()*bfngamemodes.length);
+    switch (randomGameMode)
+    {
+        case 0:
+            return "Weekly Event";
+        case 1:
+            return "Turf Takeover";
+        case 2:
+            return "Team Vanquish";
+        case 3:
+            return "Battle Arena";
+        case 4:
+            return "Garden & Graveyard Ops";
+        case 5:
+            return "Mixed Modes";
+    }
+}
+
 module.exports = {
     randomgw1plant,
     randomgw1zombie,
     randomgw2plant,
     randomgw2zombie,
     randomBfnPlant,
-    randomBfnZombie
+    randomBfnZombie,
+    gw1gamemode,
+    gw2gamemode,
+    bfngamemode
 };

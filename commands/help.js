@@ -18,7 +18,7 @@ const Gw1Embed = new Discord.MessageEmbed()
     .setTitle('Garden Warfare 1 Commands')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
-        { name: 'Commands', value: 'pvz.gw1plant - Random GW1 Plant\npvz.gw1zombie - Random GW1 Zombie'},
+        { name: 'Commands', value: 'pvz.gw1plant - Random GW1 Plant\npvz.gw1zombie - Random GW1 Zombie\npvz.gw1gamemode - Random GW1 gamemode'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)
@@ -29,7 +29,7 @@ const Gw2Embed = new Discord.MessageEmbed()
     .setTitle('Garden Warfare 2 Commands')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
-        { name: 'Commands', value: 'pvz.gw2plant - Random GW2 Plant.\npvz.gw2zombie - Random GW2 Zombie.\npvz.mysteryportal - Check the current Mystery Portal event.\npvz.rux - Check when Rux leaves.'},
+        { name: 'Commands', value: 'pvz.gw2plant - Random GW2 Plant.\npvz.gw2zombie - Random GW2 Zombie.\npvz.mysteryportal - Check the current Mystery Portal event.\npvz.rux - Check when Rux leaves.\npvz.gw2gamemode - Random GW2 gamemode'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)
@@ -40,7 +40,7 @@ const BfNEmbed = new Discord.MessageEmbed()
     .setTitle('Battle for Neighborville Commands')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
-        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.\npvz.arena - View the current Battle Arena rotation.'},
+        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.\npvz.arena - View the current Battle Arena rotation.\npvz.bfngamemode - Random BFN gamemode\npvz.ruxbundles [Bundle Name] - View BFN Rux bundles'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)

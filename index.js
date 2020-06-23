@@ -12,10 +12,10 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'pvz.support', 'v1.6.2!', 'by zSupremoz!'];
+let statuses = ['pvz.help', 'pvz.support', 'v1.6.3!', 'by zSupremoz!'];
 
 client.once('ready', () => {
-    console.log('PvZ Tools v1.6.2 is Online!');
+    console.log(`PvZ Tools ${version} is Online!`);
     client.user.setActivity('pvz.help', { type: "LISTENING"});
     setInterval(function() {
         let status = statuses[Math.floor(Math.random() * statuses.length)];
@@ -109,6 +109,18 @@ client.on('message', message => {
             break;
         case 'arena':
             client.commands.get('battlearena').execute(message, args);
+            break;
+        case 'gw1gamemode':
+            client.commands.get('gw1gamemode').execute(message, args);
+            break;
+        case 'gw2gamemode':
+            client.commands.get('gw2gamemode').execute(message, args);
+            break;
+        case 'bfngamemode':
+            client.commands.get('bfngamemode').execute(message, args);
+            break;
+        case 'ruxbundles':
+            client.commands.get('ruxbundles').execute(message, args);
             break;
         default:
             client.commands.get('unk').execute(message, args);

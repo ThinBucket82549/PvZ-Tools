@@ -1,10 +1,10 @@
 {
-    "title": "Boss Turf Takeover",
-    "description": "8v8 Turf Takeover where teams not only battle over turf, but also compete for the Boss Chest to spawn an AI boss for their cause!",
-    "allowedchars": "All",
-    "gamemode": "Turf Takeover",
-    "challenge1": "Open a Boss Chest",
-    "challenge2": "Vanquish a Boss",
-    "challenge3": "Win 5 Matches",
-    "enddate": "Jun 23, 2020 14:15:00"
+    "title": "Rando Ops",
+    "description": "Spawn as random characters and battle waves of enemies in Ops!",
+    "allowedchars": "All (Randomized)",
+    "gamemode": "Ops",
+    "challenge1": "Complete Rando Ops",
+    "challenge2": "Complete Rando Ops Without Being Vanquished",
+    "challenge3": "Complete Rando Ops Five Times",
+    "enddate": "Jun 30, 2020 18:15:00"
 }
