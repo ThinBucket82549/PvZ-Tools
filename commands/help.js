@@ -40,7 +40,7 @@ const BfNEmbed = new Discord.MessageEmbed()
     .setTitle('Battle for Neighborville Commands')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
-        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.\npvz.arena - View the current Battle Arena rotation.\npvz.bfngamemode - Random BFN gamemode\npvz.ruxbundles [Bundle Name] - View BFN Rux bundles'},
+        { name: 'Commands', value: 'pvz.bfnplant - Random BFN Plant.\npvz.bfnzombie - Random BFN Zombie.\npvz.weeklyevent - Check the current Weekly Event.\npvz.nextkey - Check when the next Character Key is available.\npvz.prizemap - Check Prize Map information.\npvz.prizemap list - Check Prize Map rewards.\npvz.tobulb [XP] - Converts specified XP to Prize Bulbs.\npvz.toxp [Prize Bulbs] - Converts specified Prize Bulbs to XP.\npvz.eventdata [Event Name] - Shows information about a Weekly Event (pvz.eventdata list)\npvz.challenges - View the current Character Challenges.\npvz.arena - View the current Battle Arena rotation.\npvz.bfngamemode - Random BFN gamemode\npvz.ruxbundles [Bundle Name] - View BFN Rux bundles'},
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' }
     )
     .setFooter(`Version - ${version}`)

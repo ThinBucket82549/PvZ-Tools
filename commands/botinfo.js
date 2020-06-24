@@ -9,7 +9,7 @@ const InfoEmbed = new Discord.MessageEmbed()
     .addFields(
         { name: 'Source', value: 'https://github.com/zSupremoz/PvZ-Tools' },
         { name: 'Full Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools/tree/master#pvz-tools' },
-        { name: 'Contributors', value: 'Silvercyclops - Providing various images.'}
+        { name: 'Contributors', value: 'Silvercyclops - Providing various images.\nZOMBOSS - Provided many suggestions\nShadowsphinx - Provided information about Rux Bundles for BFN.'}
     )
     .setFooter(`Version - ${version}`)
     .setTimestamp();
