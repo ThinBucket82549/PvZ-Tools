@@ -12,7 +12,7 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'pvz.support', 'v1.6.3!', 'by zSupremoz!'];
+let statuses = ['pvz.help', 'pvz.support', 'v1.7.1!', 'by zSupremoz!'];
 
 client.once('ready', () => {
     console.log(`PvZ Tools ${version} is Online!`);
