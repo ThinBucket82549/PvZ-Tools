@@ -26,7 +26,7 @@ module.exports = {
         var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
         KeyEmbed.setDescription('Next Character Key in ' + days + "d " + hours + "h " + minutes + "m " + seconds + "s. \n"
-        + "3/4 Keys Distributed");
+        + "4/4 Keys Distributed");
 
         if (timeLeft < 0) {
             KeyEmbed.setDescription("Ask zSupremoz to fix this.");
