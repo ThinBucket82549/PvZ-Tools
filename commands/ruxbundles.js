@@ -20,7 +20,7 @@ module.exports = {
         {
             Rux.setTitle('PvZ BFN Rux Bundles');
             Rux.setDescription('Note: This list is incomplete and may be missing some bundles. If you know of any that aren\'t on the list, you can help out by telling zSupremoz#9248 about them.\n\n'
-            + `Bundles\n\nPrimal Acorn Bundle\nSocial Zombie Bundle\nWonderful Wizard Bundle\nWicked Wizard Bundle\nThorn Apart - Upgrade & Costume\nFortunate Nightcap Bundle`);
+            + `Bundles\n\nPrimal Acorn Bundle\nSocial Zombie Bundle\nWonderful Wizard Bundle\nWicked Wizard Bundle\nThorn Apart - Upgrade & Costume\nFortunate Nightcap Bundle\nAlluring Pirate Bundle`);
         }
         else if (args[0] === 'Primal' && args[1] === 'Acorn' && args[2] === 'Bundle')
         {
@@ -51,7 +51,12 @@ module.exports = {
         else if (args[0] === 'Fortunate' && args[1] === 'Nightcap' && args[2] === 'Bundle')
         {
             Rux.setTitle('Fortunate Nightcap Bundle');
-            Rux.setDescription(`Cost: ${star} 1600\n\n` + 'Contents\nFortune Cap (Night Cap Costume)\nJurassic Jammies (Night Cap Costume)\nStarfruit Fighter Set (Night Cap Item Set)')
+            Rux.setDescription(`Cost: ${star} 1600\n\n` + 'Contents\nFortune Cap (Night Cap Costume)\nJurassic Jammies (Night Cap Costume)\nStarfruit Fighter Set (Night Cap Item Set)');
+        }
+        else if (args[0] === 'Alluring' && args[1] === 'Pirate' && args[2] === 'Bundle')
+        {
+            Rux.setTitle('Alluring Pirate Bundle');
+            Rux.setDescription(`Cost: ${star} 1750\n\n` + 'Contents\nA Koi Matey (Captain Deadbeard Hat)\nCut Lass (Captain Deadbeard Costume)\nMap Check (Captain Deadbeard Gesture)')
         }
         else
         {
