@@ -7,6 +7,7 @@ const RuxEmbed = new Discord.MessageEmbed()
     .setTitle('Next Rux Rotation (GW2)')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
+    .setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/726902269794320565/unknown.png')
     .setTimestamp();
 
 module.exports = {

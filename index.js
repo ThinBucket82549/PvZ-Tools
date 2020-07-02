@@ -12,7 +12,7 @@ for (const file of commandFiles)
     client.commands.set(command.name, command);
 }
 
-let statuses = ['pvz.help', 'pvz.support', 'v1.7.1!', 'by zSupremoz!'];
+let statuses = ['pvz.help', 'pvz.support', 'v1.8.0!', 'by zSupremoz!'];
 
 client.once('ready', () => {
     console.log(`PvZ Tools ${version} is Online!`);
@@ -121,6 +121,9 @@ client.on('message', message => {
             break;
         case 'ruxbundles':
             client.commands.get('ruxbundles').execute(message, args);
+            break;
+        case 'trivia':
+            client.commands.get('trivia').execute(message, args);
             break;
         default:
             client.commands.get('unk').execute(message, args);

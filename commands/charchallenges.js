@@ -4,7 +4,7 @@ const { name } = require('../config/prizemap.json');
 const { ch1name, ch1chal1, ch1chal2, ch1chal3, ch1chal4, ch1chal5, ch2name, ch2chal1, ch2chal2, ch2chal3, ch2chal4, ch2chal5, ch3name, ch3chal1, ch3chal2, ch3chal3, ch3chal4, ch3chal5, ch4name, ch4chal1, ch4chal2, ch4chal3, ch4chal4, ch4chal5 } = require('../config/charchallenges.json');
 
 const CharChallenge = new Discord.MessageEmbed()
-    .setColor('#e5964f')
+    .setColor('#6b0d18')
     .setTitle(`${name} Character Challenges`)
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(

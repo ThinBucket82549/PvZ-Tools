@@ -26,7 +26,7 @@ module.exports = {
         var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        BattleArena.setDescription(`End Time\n` + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+        BattleArena.setDescription(`End Time\n<:bfntimer:726788472790188082>` + days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
 
         if (timeLeft < 0)
         {

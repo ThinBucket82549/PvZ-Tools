@@ -16,6 +16,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#4da43b');
             UpgradesEmbed.setTitle('Peashooter Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673227762171955/Perk_RoleIcon_Hero_Peashooter.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\n'
             + 'Low Life\t<:upg:722549190097371237>1\nPro Spitter\t<:upg:722549190097371237>1\nReload Gatling\t<:upg:722549190097371237>2\nLast Ditch\t<:upg:722549190097371237>2\n'
             + 'Leveling Up\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nCombat Adrenaline\t<:upg:722549190097371237>3\n'
@@ -28,6 +29,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#5d3b76');
             UpgradesEmbed.setTitle('Chomper Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673182656888882/Perk_RoleIcon_Hero_Chomper.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nFace Bite\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\n'
             + 'Upset Stomach\t<:upg:722549190097371237>2\nVampire Spikeweek\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nWell Fed\t<:upg:722549190097371237>3\n'
             + 'Hailtosis\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nSymbiosis\t<:upg:722549190097371237>3\nChomp Thing\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\n'
@@ -38,6 +40,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#fdb559');
             UpgradesEmbed.setTitle('Kernel Corn Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673179020427425/Perk_RoleIcon_Hero_AssaultCorn.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\n'
             + '20/10\t<:upg:722549190097371237>2\nHappy Feet\t<:upg:722549190097371237>2\nRapid Recond\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\n'
             + 'Buttered Branches\t<:upg:722549190097371237>3\nHopscotch\t<:upg:722549190097371237>3\nRe-Corn-naissance\t<:upg:722549190097371237>3\nSuper Spin\t<:upg:722549190097371237>3\nMob Cobs\t<:upg:722549190097371237>3\nReaping Leap\t<:upg:722549190097371237>3\n'
@@ -48,6 +51,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#c04359');
             UpgradesEmbed.setTitle('Night Cap Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673224285225000/Perk_RoleIcon_Hero_Mushroom.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\n'
             + 'Incubate\t<:upg:722549190097371237>2\nShadow Sling\t<:upg:722549190097371237>2\nPiercing Power\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\n'
             + 'Parkour\t<:upg:722549190097371237>3\nShadow Tribute\t<:upg:722549190097371237>3\nFleet Footed\t<:upg:722549190097371237>3\nSpore-ratic\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\n'
@@ -58,6 +62,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#ee6f21');
             UpgradesEmbed.setTitle('Snapdragon Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673242396229672/Perk_RoleIcon_Hero_SnapDragon.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\n'
             + 'Heat Seeking\t<:upg:722549190097371237>2\nExcellent Accelerant\t<:upg:722549190097371237>2\nEngulf\t<:upg:722549190097371237>2\nCoolant\t<:upg:722549190097371237>2\nQuake\t<:upg:722549190097371237>2\nRadiate\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\n'
             + 'Critical Blow\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nVentilation\t<:upg:722549190097371237>3\nCampfire\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nIncendiary\t<:upg:722549190097371237>4'
@@ -68,6 +73,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#929d41');
             UpgradesEmbed.setTitle('Cactus Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673181511712878/Perk_RoleIcon_Hero_Cactus.png');
             UpgradesEmbed.setDescription('Refreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nSpud Spotting\t<:upg:722549190097371237>2\nBest Defence\t<:upg:722549190097371237>2\nSpotlight\t<:upg:722549190097371237>2\nHealth Regeneration\t<:upg:722549190097371237>2\n'
             + 'Health Regeneration Delay\t<:upg:722549190097371237>2\nPressure Point\t<:upg:722549190097371237>2\nAlacrity\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nMirage\t<:upg:722549190097371237>3\nFallback\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\n'
             + 'Bon Voyage\t<:upg:722549190097371237>3\nLooting\t<:upg:722549190097371237>3\nCalibrated\t<:upg:722549190097371237>4\nPopcorn\t<:upg:722549190097371237>4\nAdrenaline Rush\t<:upg:722549190097371237>4\nSustenance\t<:upg:722549190097371237>4');
@@ -77,6 +83,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#ff9455');
             UpgradesEmbed.setTitle('Citron Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673184061980712/Perk_RoleIcon_Hero_Citron.png');
             UpgradesEmbed.setDescription('Emergency Exit\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nQuenching Cover\t<:upg:722549190097371237>2\nBest Defence\t<:upg:722549190097371237>2\nHealth Regeneration\t<:upg:722549190097371237>2\n'
             + 'Health Regeneration Delay\t<:upg:722549190097371237>2\nFreshly Squeezed\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nKinetic Energy\t<:upg:722549190097371237>3\nPeel Out\t<:upg:722549190097371237>3\nPeached\t<:upg:722549190097371237>3\nJuiced\t<:upg:722549190097371237>3\nFallback\t<:upg:722549190097371237>3\n'
             + 'Speedy\t<:upg:722549190097371237>3\nBowling\t<:upg:722549190097371237>4\nPulp Powered\t<:upg:722549190097371237>4\nPeachy\t<:upg:722549190097371237>4\nAdrenaline Rush\t<:upg:722549190097371237>4');
@@ -86,6 +93,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#5c351b');
             UpgradesEmbed.setTitle('Acorn Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673174394110052/Perk_RoleIcon_Hero_Acorn.png');
             UpgradesEmbed.setDescription('Refreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLog Jam\t<:upg:722549190097371237>1\nMolasses\t<:upg:722549190097371237>2\nNatural 20\t<:upg:722549190097371237>2\nBest Defence\t<:upg:722549190097371237>2\nLittle Friend\t<:upg:722549190097371237>2\nHealth Regeneration\t<:upg:722549190097371237>2\n'
             + 'Health Regeneration Delay\t<:upg:722549190097371237>2\nSlap Back\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nQuickdraw\t<:upg:722549190097371237>3\nFallback\t<:upg:722549190097371237>3\nHardened\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nRewind\t<:upg:722549190097371237>3\nParty Supplies\t<:upg:722549190097371237>3\n'
             + 'Nutty Feedback\t<:upg:722549190097371237>4\nAdrenaline Rush\t<:upg:722549190097371237>4');
@@ -95,6 +103,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#faa74a');
             UpgradesEmbed.setTitle('Sunflower Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673249845313636/Perk_RoleIcon_Hero_Sunflower.png');
             UpgradesEmbed.setDescription('Super Savior\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nStuffy Sundrop\t<:upg:722549190097371237>2\nRevive Reward\t<:upg:722549190097371237>2\nVampire Flower\t<:upg:722549190097371237>2\nQuick Egress\t<:upg:722549190097371237>2\nShove\t<:upg:722549190097371237>2\nRollout\t<:upg:722549190097371237>2\n'
             + 'Leveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nBlossom\t<:upg:722549190097371237>5\nFull Bloom\t<:upg:722549190097371237>3\nCocoon\t<:upg:722549190097371237>3\nPocket Protection\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nHard Target\t<:upg:722549190097371237>3\nRecharge\t<:upg:722549190097371237>4\nSunslinger\t<:upg:722549190097371237>4\nCombat Aura\t<:upg:722549190097371237>4');
             message.channel.send(UpgradesEmbed);
@@ -103,6 +112,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#be2c1f');
             UpgradesEmbed.setTitle('Rose Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673235416907836/Perk_RoleIcon_Hero_Rose.png');
             UpgradesEmbed.setDescription('Super Savior\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nS-Cape\t<:upg:722549190097371237>2\nRevive Reward\t<:upg:722549190097371237>2\nCarpool\t<:upg:722549190097371237>2\nThistle Missile\t<:upg:722549190097371237>2\nRollout\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nLocked and Loaded\t<:upg:722549190097371237>3\n'
             + 'Leveling Up\t<:upg:722549190097371237>2\nSpeedy\t<:upg:722549190097371237>3\nPollination\t<:upg:722549190097371237>3\nHard Target\t<:upg:722549190097371237>3\nGoatality\t<:upg:722549190097371237>3\nTime Snare\t<:upg:722549190097371237>4\nPsychedelic Goatift\t<:upg:722549190097371237>4\nCombat Aura\t<:upg:722549190097371237>4\nEpiphany\t<:upg:722549190097371237>4\nPhotosynthesis\t<:upg:722549190097371237>4\n<:legendary_upg:722632525796737055>Thorn Apart\t<:upg:722549190097371237>5');
             message.channel.send(UpgradesEmbed);
@@ -111,6 +121,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#ad9940');
             UpgradesEmbed.setTitle('Foot Soldier Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673246439669760/Perk_RoleIcon_Hero_Soldier.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\nAmmo Thing-A-Ma-Bob\t<:upg:722549190097371237>2\nSmelling Salts\t<:upg:722549190097371237>2\nRanger\t<:upg:722549190097371237>2\nShockwave\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\n'
             + 'Rapid Fire\t<:upg:722549190097371237>3\nRocket Leap\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nSticky!\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nPropellant\t<:upg:722549190097371237>3\nBottomless\t<:upg:722549190097371237>3\nLiftoff\t<:upg:722549190097371237>4');
             message.channel.send(UpgradesEmbed);
@@ -119,6 +130,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#e9683b');
             UpgradesEmbed.setTitle('Imp Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673285589172254/Perk_RoleIcon_Hero_Imp.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\nButt Booster Booster\t<:upg:722549190097371237>1\nAftershock\t<:upg:722549190097371237>2\nMultiplying Madness\t<:upg:722549190097371237>2\nPod Powered\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nRipcord\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\n'
             + 'Critical Blow\t<:upg:722549190097371237>3\nArm Day\t<:upg:722549190097371237>3\nSupermassive\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nEnergize\t<:upg:722549190097371237>3\nMech Hunter\t<:upg:722549190097371237>4\nCentripital Force\t<:upg:722549190097371237>4');
             message.channel.send(UpgradesEmbed);
@@ -127,14 +139,16 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#70328c');
             UpgradesEmbed.setTitle('Super Brainz Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673251909042196/Perk_RoleIcon_Hero_SuperBrainz.png')
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\nTyphoon\t<:upg:722549190097371237>2\nStick and Move\t<:upg:722549190097371237>2\nFallback Plan\t<:upg:722549190097371237>2\nReach\t<:upg:722549190097371237>2\nSpeedbag\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\n'
-            + 'Critical Blow\t<:upg:722549190097371237>3\nRecuperate\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nScorched\t<:upg:722549190097371237>3\nUltra Combo\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nExtra Special\t<:upg:722549190097371237>3\nHero\'s Moment\t<:upg:722549190097371237>4');
+            + 'Critical Blow\t<:upg:722549190097371237>3\nRecuperate\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nScorched\t<:upg:722549190097371237>3\nUltra Combo\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nExtra Special\t<:upg:722549190097371237>3\nHero\'s Moment\t<:upg:722549190097371237>4\nBrainium Basher 9001\t<:upg:722549190097371237>5');
             message.channel.send(UpgradesEmbed);
         }
         else if ((args[0] === '80s' && args[1] === 'Action' && args[2] === 'Hero') || (args[0] === '80s' && args[1] === 'action' && args[2] === 'hero'))
         {
             UpgradesEmbed.setColor('#172b4e');
             UpgradesEmbed.setTitle('80s Action Hero Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673176126357585/Perk_RoleIcon_Hero_ActionHero.png');
             UpgradesEmbed.setDescription('Improved Tracking\t<:upg:722549190097371237>1\nCombo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLeg Day\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\nTrack Star\t<:upg:722549190097371237>2\nTargeting Arrows\t<:upg:722549190097371237>2\nFree Ride\t<:upg:722549190097371237>2\nBow Master\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\n'
             + 'Leveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nCritical Tag\t<:upg:722549190097371237>3\nRemarkable Rockets\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nSuper Payload\t<:upg:722549190097371237>4\nThe Huntsman\t<:upg:722549190097371237>5');
             message.channel.send(UpgradesEmbed);
@@ -143,6 +157,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#dc3b82');
             UpgradesEmbed.setTitle('Electric Slide Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673185483849758/Perk_RoleIcon_Hero_Electric.png');
             UpgradesEmbed.setDescription('Combo\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nLow Life\t<:upg:722549190097371237>1\nJumper Cabes\t<:upg:722549190097371237>2\nMalfunction\t<:upg:722549190097371237>2\nTurbulence\t<:upg:722549190097371237>2\nFearless\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nMaelstrom\t<:upg:722549190097371237>3\n'
             + 'Chain Lightning\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nVampiric\t<:upg:722549190097371237>3\nAmplification\t<:upg:722549190097371237>3\nReady Up\t<:upg:722549190097371237>3\nCooling Sparks\t<:upg:722549190097371237>4\nConduction\t<:upg:722549190097371237>4\nJazz Hands\t<:upg:722549190097371237>4\nDefibrillated\t<:upg:722549190097371237>5');
             message.channel.send(UpgradesEmbed);
@@ -151,6 +166,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#4e566a');
             UpgradesEmbed.setTitle('Captain Deadbeard Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673231499296968/Perk_RoleIcon_Hero_Pirate.png');
             UpgradesEmbed.setDescription('Refreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nPowder Keg\t<:upg:722549190097371237>1\nBest Defence\t<:upg:722549190097371237>2\nHealth Regeneration\t<:upg:722549190097371237>2\nHealth Regeneration Delay\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nIncoming Keg\t<:upg:722549190097371237>3\nWind Chilled\t<:upg:722549190097371237>3\n'
             + 'Scuttle Shot\t<:upg:722549190097371237>3\nFallback\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nAye Spy\t<:upg:722549190097371237>3\nPlunder\t<:upg:722549190097371237>3\nLong Barrel\t<:upg:722549190097371237>3\nFreebie\t<:upg:722549190097371237>3\nHeavy Metal\t<:upg:722549190097371237>4\nShore Leave\t<:upg:722549190097371237>4\nAdrenaline Rush\t<:upg:722549190097371237>4');
             message.channel.send(UpgradesEmbed);
@@ -159,6 +175,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#d03123');
             UpgradesEmbed.setTitle('All-Star Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673178021920858/Perk_RoleIcon_Hero_AllStar.png');
             UpgradesEmbed.setDescription('Refreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nSpin Class\t<:upg:722549190097371237>2\nBest Defence\t<:upg:722549190097371237>2\nLong Bomb\t<:upg:722549190097371237>2\nFollow Through\t<:upg:722549190097371237>2\nShoot the Gap\t<:upg:722549190097371237>2\nHealth Regeneration\t<:upg:722549190097371237>2\nHealth Regeneration Delay\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\n'
             + 'Critical Blow\t<:upg:722549190097371237>3\nTennis Skills\t<:upg:722549190097371237>3\nStar Struck\t<:upg:722549190097371237>3\nFallback\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nSupercharged Football Coolant\t<:upg:722549190097371237>3\nApplying Pressure\t<:upg:722549190097371237>3\nInjury Time\t<:upg:722549190097371237>4\nHuge Fuse\t<:upg:722549190097371237>4\nAdrenaline Rush\t<:upg:722549190097371237>4');
             message.channel.send(UpgradesEmbed);
@@ -167,6 +184,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#a3867c');
             UpgradesEmbed.setTitle('Space Cadet Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673180379381770/Perk_RoleIcon_Hero_Astronaut.png');
             UpgradesEmbed.setDescription('Refreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nBullseye\t<:upg:722549190097371237>1\nRocket Fueled\t<:upg:722549190097371237>1\nTitanium Plating\t<:upg:722549190097371237>2\nBest Defence\t<:upg:722549190097371237>2\nHealth Regeneration\t<:upg:722549190097371237>2\nHealth Regeneration Delay\t<:upg:722549190097371237>2\nFeedback Loop\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\n'
             + 'Longshot\t<:upg:722549190097371237>3\nCritical Blow\t<:upg:722549190097371237>3\nAmmo Eater\t<:upg:722549190097371237>3\nEfficiency\t<:upg:722549190097371237>3\nAssimilation\t<:upg:722549190097371237>3\nFallback\t<:upg:722549190097371237>3\nAfterburners\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nTarget Acquired\t<:upg:722549190097371237>3\nAdrenaline Rush\t<:upg:722549190097371237>4');
             message.channel.send(UpgradesEmbed);
@@ -175,6 +193,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#9e1abf');
             UpgradesEmbed.setTitle('Scientist Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673239149969478/Perk_RoleIcon_Hero_Scientist.png');
             UpgradesEmbed.setDescription('Super Savior\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nRevive Reward\t<:upg:722549190097371237>2\nEvolution\t<:upg:722549190097371237>2\nReanimate\t<:upg:722549190097371237>2\nRollout\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nWormhole\t<:upg:722549190097371237>3\nDiffusion\t<:upg:722549190097371237>3\n'
             + 'Speedy\t<:upg:722549190097371237>3\nCPR\t<:upg:722549190097371237>3\nHard Target\t<:upg:722549190097371237>3\nPower Wash\t<:upg:722549190097371237>3\nReflexive\t<:upg:722549190097371237>3\nDolphin Blasting\t<:upg:722549190097371237>4\nPrecision\t<:upg:722549190097371237>4\nMaterialize\t<:upg:722549190097371237>4\nCombat Aura\t<:upg:722549190097371237>4\nSteam Blaster\t<:upg:722549190097371237>5');
             message.channel.send(UpgradesEmbed);
@@ -183,6 +202,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#fdaa4a');
             UpgradesEmbed.setTitle('Engineer Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673186637152346/Perk_RoleIcon_Hero_Engineer.png');
             UpgradesEmbed.setDescription('Super Savior\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nSeismic\t<:upg:722549190097371237>2\nReinforced\t<:upg:722549190097371237>2\nRevive Reward\t<:upg:722549190097371237>2\nRubber\t<:upg:722549190097371237>2\nTurbo Charge\t<:upg:722549190097371237>2\nRollout\t<:upg:722549190097371237>2\nBreakthrough\t<:upg:722549190097371237>2\nHydraulics\t<:upg:722549190097371237>2\n'
             + 'Leveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nProgress Report\t<:upg:722549190097371237>3\nDispersion\t<:upg:722549190097371237>3\nSignal Amp\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nHard Target\t<:upg:722549190097371237>3\nRally the Troops\t<:upg:722549190097371237>3\nCombat Aura\t<:upg:722549190097371237>4\n');
             message.channel.send(UpgradesEmbed);
@@ -191,6 +211,7 @@ module.exports = {
         {
             UpgradesEmbed.setColor('#3160b2');
             UpgradesEmbed.setTitle('Wizard Upgrades');
+            UpgradesEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/724673255809744936/Perk_RoleIcon_Hero_Wizard.png');
             UpgradesEmbed.setDescription('Super Savior\t<:upg:722549190097371237>1\nRefreshing Revive\t<:upg:722549190097371237>1\nRough Patch\t<:upg:722549190097371237>1\nRevive Reward\t<:upg:722549190097371237>2\nRollout\t<:upg:722549190097371237>2\nvE-O-sa\t<:upg:722549190097371237>2\nWand Wammo\t<:upg:722549190097371237>2\nWizard Needs Help\t<:upg:722549190097371237>2\nLeveling Up\t<:upg:722549190097371237>2\nCritical Blow\t<:upg:722549190097371237>3\nSpeedy\t<:upg:722549190097371237>3\nHard Target\t<:upg:722549190097371237>3\n'
             + 'Slow Your Roll\t<:upg:722549190097371237>3\nTwo-Headed Dragon\t<:upg:722549190097371237>3\nElder Alchemist\t<:upg:722549190097371237>3\nBottle Bouncer\t<:upg:722549190097371237>3\nBlinders Off\t<:upg:722549190097371237>3\nDrive-By Head Rub\t<:upg:722549190097371237>4\nDust and Echoes\t<:upg:722549190097371237>4\n');
             message.channel.send(UpgradesEmbed);
@@ -510,6 +531,8 @@ module.exports = {
             getupg('Extra Special', 'Raise shield when firing Super Ultra Ball.', 3, 'Super Brainz');
         else if (args[0] === 'Hero\'s' && args[1] === 'Moment')
             getupg('Hero\'s Moment', 'Gain health for knocking an enemy into the air with Hyper Jump Thump.', 4, 'Super Brainz');
+        else if (args[0] === 'Brainium' && args[1] === 'Basher' && args[2] === '9001')
+            getupg('Brainium Basher 9001', 'Swap primary and secondary weapon for a charge up dash attack and an upwards strike.', 5, 'Super Brainz')
         else if (args[0] === 'Improved' && args[1] === 'Tracking')
             getupg('Improved Tracking', 'Earn a tag on an enemy by dealing damage with Can\'t-Miss-ile', 1, '80s Action Hero');
         else if (args[0] === 'Leg' && args[1] === 'Day')

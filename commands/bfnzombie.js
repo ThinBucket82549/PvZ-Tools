@@ -4,7 +4,7 @@ const Randomizer = require('../functions/randomizer.js');
 const { randomBfnZombie } = require('../functions/randomizer.js');
 
 const RandomizerEmbed = new Discord.MessageEmbed()
-    .setTitle('Random BFN Plant Character')
+    .setTitle('Random BFN Zombie Character')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
     .setTimestamp();
@@ -31,9 +31,18 @@ module.exports = {
         }
         if (result.includes('Super'))
         {
-            RandomizerEmbed.setColor('#70328c');
-            RandomizerEmbed.setDescription(`${zom} ${result}`);
-            RandomizerEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/722939952924721343/bfn_super_brainz.png');
+            if (result.includes('9001'))
+            {
+                RandomizerEmbed.setColor('#70328c');
+                RandomizerEmbed.setDescription(`${zom} ${result} ${legend}`);
+                RandomizerEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/727970946375221359/LegendaryUpg1.png');
+            }
+            else
+            {
+                RandomizerEmbed.setColor('#70328c');
+                RandomizerEmbed.setDescription(`${zom} ${result}`);
+                RandomizerEmbed.setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/722939952924721343/bfn_super_brainz.png');
+            }
         }
         if (result.includes('80'))
         {

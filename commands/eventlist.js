@@ -136,6 +136,12 @@ module.exports = {
             EventEmbed.setDescription('Cool dudes usually don\'t look at explosions, but with so many going off it\'s hard not to. Bombs, Beans, and Fireballs all go BOOM this week!\n\nGame Mode\nGnome Bomb\n\nPermitted Characters\nPeashooter, Kernel Corn, Snapdragon, Foot Soldier, Super Brainz, 80s Action Hero\n\n'
             + `Challenges\n1. Win a Match ${challenge1}\n2. Get 20 Vanquishes ${challenge2}\n3. Win 3 Matches ${challenge3}`)
         }
+        else if (args[0] === 'Double' && args[1] === 'Trouble')
+        {
+            EventEmbed.setTitle('Double Trouble');
+            EventEmbed.setDescription('The Design Team accidentally let a Raccoon into the servers. Everyone is doing DOUBLE DAMAGE! We\'ll try to get this under control soon.\n\nGame Mode\nVanquish Confirmed\n\nPermitted Characters\nAll\n\n'
+            + `Challenges\n1. Win a Match ${challenge1}\n2. Get 15 Vanquishes ${challenge2}\n3. Deal 20,000 Damage ${challenge3}`)
+        }
         else if (args[0] === 'list')
         {
             EventEmbed.setTitle('List of Weekly Events');

@@ -511,7 +511,16 @@ function randomBfnZombie () {
             return 'Imp';
 
         case 2:
-            return 'Super Brainz';
+            var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
+            
+            switch(useLegendary)
+            {
+                case 0:
+                    return 'Super Brainz';
+                case 1:
+                    return 'Super Brainz - Brainium Basher 9001';
+            }
+            
 
         case 3:
             return '80s Action Hero';

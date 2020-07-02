@@ -1,10 +1,10 @@
 {
-    "title": "Rando Ops",
-    "description": "Spawn as random characters and battle waves of enemies in Ops!",
-    "allowedchars": "All (Randomized)",
-    "gamemode": "Ops",
-    "challenge1": "Complete Rando Ops",
-    "challenge2": "Complete Rando Ops Without Being Vanquished",
-    "challenge3": "Gain 8,5000 XP",
-    "enddate": "Jun 30, 2020 18:15:00"
+    "title": "Double Trouble",
+    "description": "The Design Team accidentally let a Raccoon into the servers. Everyone is doing DOUBLE DAMAGE! We'll try to get this under control soon. (Bugged, does normal damage instead)",
+    "allowedchars": "All",
+    "gamemode": "Vanquish Confirmed",
+    "challenge1": "Win a Match",
+    "challenge2": "Get Vanquishes (15)",
+    "challenge3": "Deal Damage (20,000)",
+    "enddate": "Jul 7, 2020 18:15:00"
 }

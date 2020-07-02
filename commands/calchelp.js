@@ -11,6 +11,7 @@ const CalcHelpEmbed = new Discord.MessageEmbed()
         { name: 'Documentary', value: 'https://github.com/zSupremoz/PvZ-Tools#calculator-commands' }
     )
     .setFooter(`Version - ${version}`)
+    .setThumbnail('https://cdn.discordapp.com/attachments/722937222772293722/726893941974368356/prizebulb.png')
     .setTimestamp();
 
 module.exports = {
