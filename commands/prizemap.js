@@ -3,7 +3,7 @@ const { version } = require('../config.json');
 const { name, itemcount, bulbsneeded, mainprize, grandprize, enddate } = require('../config/prizemap.json');
 
 const PrizeMapEmbed = new Discord.MessageEmbed()
-    .setColor('#6b0d18')
+    .setColor('#3177bc')
     .setTitle(`${name} Prize Map`)
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .addFields(
@@ -17,13 +17,13 @@ const PrizeMapEmbed = new Discord.MessageEmbed()
     .setTimestamp();
 
 const PrizeMapList = new Discord.MessageEmbed()
-    .setColor('#6b0d18')
+    .setColor('#3177bc')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
     .setTimestamp();
 
 const MapReward = new Discord.MessageEmbed()
-    .setColor('#6b0d18')
+    .setColor('#3177bc')
     .setAuthor('PvZ Tools', 'https://i.imgur.com/REUXZUa.png')
     .setFooter(`Version - ${version}`)
     .setTimestamp();
@@ -49,136 +49,133 @@ module.exports = {
             switch (args[1])
             {
                 case '1':
-                    reward('[1] Good Game', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[1] Squashed Smores', `Cost - ${bulb} 5\nAcorn Hat`, `https://cdn.discordapp.com/attachments/722937222772293722/743063998366351481/Hat1.png`);
                     break;
                 case '2':
-                    reward('[2] Pillow Fort Thwart', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/727964616214183956/VictorySlab1.png');
+                    reward('[2] Rainbow Stars (50)', `Cost - ${bulb} 0`, `${starimg}`);
                     break;
                 case '3':
-                    reward('[3] Lifeguard Stan', `Cost - ${bulb} 7\nExpression`, `https://cdn.discordapp.com/attachments/722937222772293722/727964556642484335/Custom1.png`);
+                    reward('[3] Let\'s Rock!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '4':
-                    reward('[4] Getting Late', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/727964710338691175/Emoji1.png`);
+                    reward('[4] Mouse Boat', `Cost - ${bulb} 5\nVictory Slab`, `https://cdn.discordapp.com/attachments/722937222772293722/743064450147287100/VictorySlab1.png`);
                     break;
                 case '5':
-                    reward('[5] Pillow Fight', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/727964935006584912/Puncher1.png`);
+                    reward('[5] Ice Cream', `Cost - ${bulb} 3\nEmoji`, `https://cdn.discordapp.com/attachments/722937222772293722/743064586302783508/Emoji1.png`);
                     break;
                 case '6':
-                    reward('[6] Rainbow Stars (50)', `Cost - ${bulb} 0`, `${starimg}`);
+                    reward('[6] Water Ski Oopsie', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/743064779534630972/Punchers1.png`);
                     break;
                 case '7':
-                    reward('[7] Gorilla Krunch Arcade', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/727965206491168868/VictorySlab2.png');
+                    reward('[7] Head Lob', `Cost - ${bulb} 5\nSnapdragon Gesture`, 'https://cdn.discordapp.com/attachments/722937222772293722/743064854251962368/Gesture1.png');
                     break;
                 case '8':
-                    reward('[8] Ooo, Shiny!', `Cost - ${bulb} 7\nSpace Cadet Gesture`, 'https://cdn.discordapp.com/attachments/722937222772293722/727965417213001861/Gesture1.png');
+                    reward('[8] Bringing the Heat!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '9':
-                    reward('[9] That Was Fun', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[9] Arrowhead', `Cost - ${bulb} 7\nCactus Hat (Arch Support Set)`, `https://cdn.discordapp.com/attachments/722937222772293722/743065307748368404/Hat2.png`);
                     break;
                 case '10':
-                    reward('[10] Bear A Resemblance', `Cost - ${bulb} 7\nImp Hat (Teddy Bear Picnic Set)`, `https://cdn.discordapp.com/attachments/722937222772293722/727965797774917662/Custom2.png`);
+                    reward('[10] Stay in Circles', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '11':
-                    reward('[11] String Together', `Cost - ${bulb} 3\nPunchers`, 'https://cdn.discordapp.com/attachments/722937222772293722/727965874061049978/Puncher2.png');
+                    reward('[11] One-Eyed Tiger-Topper', `Cost - ${bulb} 5\n80s Action Hero Hat`, 'https://cdn.discordapp.com/attachments/722937222772293722/743065668106190898/Hat3.png');
                     break;
                 case '12':
-                    reward('[12] Explody Sky Spell', `Cost - ${bulb} 7\nWizard Gesture`, `https://cdn.discordapp.com/attachments/722937222772293722/727966358268280862/Gesture2.png`);
+                    reward('[12] Zomboss Coin', `Cost - ${bulb} 3\nEmoji`, `https://cdn.discordapp.com/attachments/722937222772293722/743065812532723712/Emoji2.png`);
                     break;
                 case '13':
-                    reward('[13] Hot Dog!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[13] Guard Target', `Cost - ${bulb} 7\nCactus Arms (Arch Support Set)`, `https://cdn.discordapp.com/attachments/722937222772293722/743066015721586728/Arms1.png`);
                     break;
                 case '14':
-                    reward('[14] Froggy Headed', `Cost - ${bulb} 7\nSnapdragon Hat`, 'https://cdn.discordapp.com/attachments/722937222772293722/727966596475256932/Custom3.png');
+                    reward('[14] Food Feud', `Cost - ${bulb} 3\nPunchers`, 'https://cdn.discordapp.com/attachments/722937222772293722/743066091911381092/Punchers2.png');
                     break;
                 case '15':
-                    reward('[15] Warm Woolen Kittens', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/727966684870213632/VictorySlab3.png');
+                    reward('[15] Dave Coin', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/743066255996747776/Emoji3.png');
                     break;
                 case '16':
-                    reward('[16] String Out', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/727966821348671528/Emoji2.png');
+                    reward('[16] Silly Grilly', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/743066468974985296/VictorySlab2.png');
                     break;
                 case '17':
-                    reward('[17] Spectacular Spectacles', `Cost - ${bulb} 7\nImp Accessory (Teddy Bear Picnic Set)`, 'https://cdn.discordapp.com/attachments/722937222772293722/727967000734728242/Custom4.png');
+                    reward('[17] Rainbow Stars (50)', `Cost - ${bulb} 0`, `${starimg}`);
                     break;
                 case '18':
-                    reward('[18] You Go, I\'ll Stay', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[18] Ya Burnt!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '19':
-                    reward('[19] Rainbow Stars (50)', `Cost - ${bulb} 0`, `${starimg}`);
+                    reward('[19] Marco...', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '20':
-                    reward('[20] I Go, You Stay', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[20] Polo!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '21':
-                    reward('[21] Watch Out', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[21] Side to Side', `Cost - ${bulb} 5\nImp Gesture`, `https://cdn.discordapp.com/attachments/722937222772293722/743067158526820372/Gesture2.png`);
                     break;
                 case '22':
-                    reward('[22] Solar Eclipse', `Cost - ${bulb} 10\nSunflower Costume`, 'https://cdn.discordapp.com/attachments/722937222772293722/727967640429264977/Costume1.png');
+                    reward('[22] Shelly', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/743067226956890223/Emoji4.png');
                     break;
                 case '23':
-                    reward('[23] Mime Generator', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/727967900861988995/Emoji3.png');
+                    reward('[23] Space Bolts', `Cost - ${bulb} 7\nEngineer Hat`, 'https://cdn.discordapp.com/attachments/722937222772293722/743067514132496444/Hat4.png');
                     break;
                 case '24':
-                    reward('[24] Fort Knocks', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/727968047272558682/Puncher3.png`);
+                    reward('[24] Shell We Dance', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/743067674065764352/Punchers3.png`);
                     break;
                 case '25':
-                    reward('[25] Nuzzle Muzzle', `Cost - ${bulb} 7\nImp Mouth (Teddy Bear Picnic Set)`, 'https://cdn.discordapp.com/attachments/722937222772293722/727968107552833576/Custom5.png');
+                    reward('[25] Kite Might', `Cost - ${bulb} 3\nPunchers`, 'https://cdn.discordapp.com/attachments/722937222772293722/743067845960794112/Punchers4.png');
                     break;
                 case '26':
-                    reward('[26] Outsmart Food Cart', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/727968590984118383/VictorySlab4.png');
+                    reward('[26] Timber!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '27':
-                    reward('[27] Summer Vibes', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[27] Complete Kite Off', `Cost - ${bulb} 5\nVictory Slab`, `https://cdn.discordapp.com/attachments/722937222772293722/743068296215265360/VictorySlab3.png`);
                     break;
                 case '28':
-                    reward('[28] Protect Me', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/727968785335582770/Emoji4.png');
+                    reward('[28] Idolize', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/743068450502737960/Emoji5.png');
                     break;
                 case '29':
-                    reward('[29] Flower Styled', `Cost - ${bulb} 5\nExpression`, `https://cdn.discordapp.com/attachments/722937222772293722/727968924783738970/Custom6.png`);
+                    reward('[29] Shell Being', `Cost - ${bulb} 3\nEmoji`, `https://cdn.discordapp.com/attachments/722937222772293722/743068536586502204/Emoji6.png`);
                     break;
                 case '30':
-                    reward('[30] Rainbow Stars (50)', `Cost - ${bulb} 0`, `${starimg}`);
+                    reward('[30] Surf Takeover', `Cost - ${bulb} 5\nVictory Slab`, `https://cdn.discordapp.com/attachments/722937222772293722/743068709924372550/VictorySlab4.png`);
                     break;
                 case '31':
-                    reward('[31] Ooo, Shiny!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[31] Quilly Quiver', `Cost - ${bulb} 5\nCactus Neck Prop (Arch Support Set)`, `https://cdn.discordapp.com/attachments/722937222772293722/743068900685643797/Neck1.png`);
                     break;
                 case '32':
-                    reward('[32] Noodle Fangled', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/727969271761731684/Puncher4.png`);
+                    reward('[32] Luminous Fungus', `Cost - ${bulb} 10\nNight Cap Costume`, `https://cdn.discordapp.com/attachments/722937222772293722/743069270635839508/Costume1.png`);
                     break;
                 case '33':
-                    reward('[33] Ready Set Go', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/727969403911536661/Emoji5.png');
+                    reward('[33] That Happened', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '34':
-                    reward('[34] The Bear Necessities', `Cost - ${bulb} 7\nImp Shoulders (Teddy Bear Picnic Set)`, 'https://cdn.discordapp.com/attachments/722937222772293722/727969481665675345/Custom7.png');
+                    reward('[34] Go Fish', `Cost - ${bulb} 3\nPunchers`, 'https://cdn.discordapp.com/attachments/722937222772293722/743069516124258334/Punchers5.png');
                     break;
                 case '35':
-                    reward('[35] Need Defense', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/727969859740106772/Emoji6.png');
+                    reward('[35] Heals Over There', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '36':
-                    reward('[36] YEET!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[36] Boom Town', `Cost - ${bulb} 5\nPeashooter Gesture`, `https://cdn.discordapp.com/attachments/722937222772293722/743070015657607269/Gesture3.png`);
                     break;
                 case '37':
-                    reward('[37] Fortress Of Attitude', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/727969965155549235/VictorySlab5.png');
+                    reward('[37] Cone Buddies', `Cost - ${bulb} 3\nEmoji`, 'https://cdn.discordapp.com/attachments/722937222772293722/743070172293627964/Emoji7.png');
                     break;
                 case '38':
-                    reward('[38] Punch Your Ticket', `Cost - ${bulb} 3\nPunchers`, `https://cdn.discordapp.com/attachments/722937222772293722/727970174996840448/Puncher5.png`);
+                    reward('[38] Big Mood', `Cost - ${bulb} 3\nExpression`, `${expression}`);
                     break;
                 case '39':
-                    reward('[39] Secret Shell Company', `Cost - ${bulb} 20\nSoldier Hat`, 'https://cdn.discordapp.com/attachments/722937222772293722/727970309365563392/Custom8.png');
+                    reward('[39] Clownfish Car', `Cost - ${bulb} 5\nVictory Slab`, 'https://cdn.discordapp.com/attachments/722937222772293722/743070378888396891/VictorySlab5.png');
                     break;
                 case '40':
-                    reward('[40] My Hero!', `Cost - ${bulb} 3\nExpression`, `${expression}`);
+                    reward('[40] Rainbow Stars (50)', `Cost - ${bulb} 0`, `${starimg}`);
                     break;
                 case '41':
-                    reward('[41] Make a Wish', `Cost - ${bulb} 7\nRose Gesture`, 'https://cdn.discordapp.com/attachments/722937222772293722/727970738979602462/Gesture3.png');
+                    reward('[41] Chomp-Knight', `Cost - ${bulb} 20\nChomper Costume`, 'https://cdn.discordapp.com/attachments/722937222772293722/743071074144747570/Costume2.png');
                     break;
                 case '42':
-                    reward('[42] Brainium Basher 9001', `Cost - ${bulb} 20\nSuper Brainz Legendary Upgrade`, 'https://cdn.discordapp.com/attachments/722937222772293722/727970946375221359/LegendaryUpg1.png');
+                    reward('[42] Fortress Nut', `Cost - ${bulb} 20\nAcorn Costume (Main Prize)`, 'https://cdn.discordapp.com/attachments/722937222772293722/743071387198947399/Costume3.png');
                     break;
                 case '43':
-                    reward('[43] Metal Head', `Cost - ${bulb} 0\nSuper Brainz Costume (Main Prize)`, 'https://cdn.discordapp.com/attachments/722937222772293722/727971012708270090/Costume2.png');
-                    break;
-                case '44':
-                    reward('[44] Midas Tough', 'Super Brainz Costume (Grand Prize)', 'https://cdn.discordapp.com/attachments/722937222772293722/727971272625225817/Costume3.png');
+                    reward('[43] Gilded Oak', `Acorn Costume (Grand Prize)`, 'https://cdn.discordapp.com/attachments/722937222772293722/727971012708270090/Costume2.png');
                     break;
                 default:
                     reward('Invalid Reward Entered', 'Type in pvz.prizemap list to view the reward numbers.');
@@ -190,46 +187,45 @@ module.exports = {
             if (args[1] === '1')
             {
                 PrizeMapList.setTitle('Prize Map Rewards (Page 1/5)');
-                PrizeMapList.setDescription(`[1] Good Game - Expression ${bulb} 3\n[2] Pillow Fort Thwart - Victory Slab ${bulb} 5\n[3] Lifeguard Stan ${bulb} 7\n[4] Getting Late - Emoji ${bulb} 3\n`
-                + `[5] Pillow Fight - Punchers ${bulb} 3\n[6] ${star} 50 ${bulb} 0\n[7] Gorilla Krunch Arcade - Victory Slab ${bulb} 5\n[8] Ooo, Shiny! - Space Cadet Gesture ${bulb} 7\n[9] That Was Fun - Expression ${bulb} 3`
+                PrizeMapList.setDescription(`[1] Squashed Smores - Acorn Hat ${bulb} 5\n[2] ${star} 50 ${bulb} 0\n[3] Let\'s Rock! - Expression ${bulb} 3\n[4] Mouse Boat - Victory Slab ${bulb} 5\n`
+                + `[5] Ice Cream - Emoji ${bulb} 3\n[6] Water Ski Oopsie - Punchers ${bulb} 3\n[7] Head Lob - Snapdragon Gesture ${bulb} 5\n[8] Bringing the Heat! - Expression ${bulb} 3\n[9] Arrowhead - Cactus Hat (Arch Support Set) ${bulb} 7`
                 + '\n\nType in "pvz.prizemap list 2" to view the next page.');
                 message.channel.send(PrizeMapList);
             }
             else if (args[1] === '2')
             {
                 PrizeMapList.setTitle('Prize Map Rewards (Page 2/5)');
-                PrizeMapList.setDescription(`[10] Bear A Resemblance - Imp Hat (Teddy Bear Picnic Set) ${bulb} 7\n[11] String Together - Punchers ${bulb} 3\n[12] Explody Sky Spell ${bulb} 7\n[13] Hot Dog! - Expression ${bulb} 3\n`
-                + `[14] Froggy Headed ${bulb} 7\n[15] Warm Woolen Kittens - Victory Slab ${bulb} 5\n[16] String Out - Emoji ${bulb} 3\n[17] Spectacular Spectacles - Imp Accessory (Teddy Bear Picnic Set) ${bulb} 7\n[18] You Go, I'll Stay - Expression ${bulb} 3\n[19] ${star} 50 ${bulb} 0`
+                PrizeMapList.setDescription(`[10] Stay in Circle - Expression ${bulb} 3\n[11] One-Eyed Tiger-Topper - 80s Action Hero Hat ${bulb} 5\n[12] Zomboss Coin - Emoji ${bulb} 3\n[13] Guard Target - Cactus Arms (Arch Support Set) ${bulb} 7\n`
+                + `[14] Food Feud - Punchers ${bulb} 3\n[15] Dave Coin - Emoji ${bulb} 3\n[16] Silly Grilly - Victory Slab ${bulb} 5\n[17] ${star} 50 ${bulb} 0\n[18] Ya Burnt! - Expression ${bulb} 3\n[19] Marco... - Expression ${bulb} 3`
                 + '\n\nType in "pvz.prizemap list 3" to view the next page.');
                 message.channel.send(PrizeMapList);
             }
             else if (args[1] === '3')
             {
                 PrizeMapList.setTitle('Prize Map Rewards (Page 3/5)');
-                PrizeMapList.setDescription(`[20] I Go, You Stay - Expression ${bulb} 3\n[21] Watch Out! - Expression ${bulb} 3\n[22] Solar Eclipse - Sunflower Costume ${bulb} 10\n[23] Mime Generator - Emoji ${bulb} 3\n[24] Fort Knocks - Punchers ${bulb} 3\n`
-                + `[25] Nuzzle Muzzle - Imp Mouth (Teddy Bear Picnic Set) ${bulb} 7\n[26] Outsmart Food Cart - Victory Slab${bulb} 5\n[27] Summer Vibes - Expression ${bulb} 3\n[28] Protect Me - Emoji ${bulb} 3\n[29] Flower Styled - Cactus Hat ${bulb} 5`
+                PrizeMapList.setDescription(`[20] Polo! - Expression ${bulb} 3\n[21] Side to Side - Imp Gesture ${bulb} 5\n[22] Shelly - Emoji ${bulb} 3\n[23] Space Bolts - Engineer Hat ${bulb} 7\n[24] Shell We Dance - Punchers ${bulb} 3\n`
+                + `[25] Kite Might - Punchers ${bulb} 3\n[26] Timber! - Expression ${bulb} 3\n[27] Complete Kite Off - Victory Slab ${bulb} 5\n[28] Idolize - Emoji ${bulb} 3\n[29] Shell Being - Emoji ${bulb} 3`
                 + '\n\nType in "pvz.prizemap list 4" to view the next page.');
                 message.channel.send(PrizeMapList);
             }
             else if (args[1] === '4')
             {
                 PrizeMapList.setTitle('Prize Map Rewards (Page 4/5)');
-                PrizeMapList.setDescription(`[30] ${star} 50 ${bulb} 0\n[31] Ooo, Shiny! - Expression ${bulb} 3\n[32] Noodle Fangled - Punchers ${bulb} 3\n[33] Ready Set Go - Emoji ${bulb} 5\n[34] The Bear Necessities - Imp Shoulders (Teddy Bear Picnic Set) ${bulb} 7\n`
-                + `[35] Need Defense - Emoji ${bulb} 3\n[36] YEET! - Expression ${bulb} 3\n[37] Fortress of Attitude - Victory Slab ${bulb} 5\n[38] Punch Your Ticket - Punchers ${bulb} 3\n[39] Secret Shell Company - Soldier Hat ${bulb} 20`
+                PrizeMapList.setDescription(`[30] Surf Takeover - Victory Slab ${bulb} 5\n[31] Quilly Quiver - Cactus Neck Prop (Arch Support Set) ${bulb} 7\n[32] Luminous Fungus - Night Cap Costume ${bulb} 10\n[33] That Happened - Expression ${bulb} 3\n[34] Go Fish - Punchers ${bulb} 3\n`
+                + `[35] Heals Over There - Expression ${bulb} 3\n[36] Boom Town - Peashooter Gesture ${bulb} 3\n[37] Cone Buddies - Emoji ${bulb} 3\n[38] Big Mood - Expression ${bulb} 3\n[39] Clownfish Car - Victory Slab ${bulb} 5`
                 + '\n\nType in "pvz.prizemap list 5" to view the next page.');
                 message.channel.send(PrizeMapList);
             }
             else if (args[1] === '5')
             {
                 PrizeMapList.setTitle('Prize Map Rewards (Page 5/5)');
-                PrizeMapList.setDescription(`[40] My Hero! - Expression ${bulb} 3\n[41] Make a Wish - Rose Gesture ${bulb} 7\n[42] Brainium Basher 9001 - Super Brainz Legendary Upgrade ${bulb} 20\n[43] Metal Head - Super Brainz Costume (Main Prize) ${bulb} 0`
-                + `[44] Midas Tough - Super Brainz Costume (Grand Prize)`);
+                PrizeMapList.setDescription(`[40] ${star} 50 ${bulb} 0\n[41] Chomp-Knight - Chomper Costume ${bulb} 20\n[42] Fortress Nut - Acorn Costume (Main Prize) ${bulb} 20\n[43] Gilded Oak - Acorn Costume (Grand Prize)`);
                 message.channel.send(PrizeMapList);
             }
             else {
                 PrizeMapList.setTitle('Prize Map Rewards (Page 1/5)');
-                PrizeMapList.setDescription(`[1] Good Game - Expression ${bulb} 3\n[2] Pillow Fort Thwart - Victory Slab ${bulb} 5\n[3] Lifeguard Stan ${bulb} 7\n[4] Getting Late - Emoji ${bulb} 3\n`
-                + `[5] Pillow Fight - Punchers ${bulb} 3\n[6] ${star} 50 ${bulb} 0\n[7] Gorilla Krunch Arcade - Victory Slab ${bulb} 5\n[8] Ooo, Shiny! - Space Cadet Gesture ${bulb} 7\n[9] That Was Fun - Expression ${bulb} 3`
+                PrizeMapList.setDescription(`[1] Squashed Smores - Acorn Hat ${bulb} 5\n[2] ${star} 50 ${bulb} 0\n[3] Let\'s Rock! - Expression ${bulb} 3\n[4] Mouse Boat - Victory Slab ${bulb} 5\n`
+                + `[5] Ice Cream - Emoji ${bulb} 3\n[6] Water Ski Oopsie - Punchers ${bulb} 3\n[7] Head Lob - Snapdragon Gesture ${bulb} 5\n[8] Bringing the Heat! - Expression ${bulb} 3\n[9] Arrowhead - Cactus Hat (Arch Support Set) ${bulb} 7`
                 + '\n\nType in "pvz.prizemap list 2" to view the next page.');
                 message.channel.send(PrizeMapList);
             }

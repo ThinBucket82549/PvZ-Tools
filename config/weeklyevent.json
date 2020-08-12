@@ -1,10 +1,10 @@
 {
-    "title": "Double Trouble",
-    "description": "The Design Team accidentally let a Raccoon into the servers. Everyone is doing DOUBLE DAMAGE! We'll try to get this under control soon. (Bugged, does normal damage instead)",
+    "title": "Rando Confirmed",
+    "description": "Spawn as a random character each time you get vanquished in Vanquish Confirmed.",
     "allowedchars": "All",
     "gamemode": "Vanquish Confirmed",
     "challenge1": "Win a Match",
-    "challenge2": "Get Vanquishes (15)",
-    "challenge3": "Deal Damage (20,000)",
-    "enddate": "Jul 7, 2020 18:15:00"
+    "challenge2": "Get Vanquishes (20)",
+    "challenge3": "Confirm Vanquishes (10)",
+    "enddate": "Aug 18, 2020 18:15:00"
 }
